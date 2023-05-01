@@ -1,0 +1,123 @@
+body {
+    margin: 60px;
+}
+
+form {
+    position: absolute;
+    top: 160px;
+    right: 120px;
+}
+
+h1 {
+    font-size: 50px;
+    font-style: bold italic;
+    padding: 30px;
+    font-family: "Roboto";
+    font-weight: 900 px;
+}
+
+h2 {
+    font-size: 30px;
+    font-style: bold;
+    font-family: Montserrat;
+}
+
+.temperature {
+    font-size: 30px;
+    font-family: Montserrat;
+}
+
+h3 {
+    font-size: 15px;
+}
+
+strong {
+    font-size: 20px;
+}
+
+h4 {
+    font-size: 20px;
+}
+
+span {
+    display: block;
+    padding: 10px;
+    background-color: transparent;
+    border: solid white;
+    margin: 20px;
+}
+
+.row {
+    margin: 20px;
+}
+
+container {
+    background-color: blueviolet;
+    display: block;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+body {
+    background-color: white;
+    display: block;
+    padding: 20px;
+}
+
+section {
+    color: white;
+    font-style: italic;
+}
+
+.card {
+    padding: 10px;
+    box-shadow: 2px 2px 5px 1px gray;
+}
+
+.row .column {
+    height: 5 px;
+    width: 5 px;
+}
+
+small {
+    padding: 4px;
+}
+
+.container px-5 py-5 {
+    padding: 3px;
+}
+
+.card-title {
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    background-color: transparent;
+    font-size: 15px;
+}
+
+.form-control {
+    color: white;
+    background-color: #2a3759;
+    border-radius: 5px;
+    border: 1px solid white;
+}
+
+.btn-primary {
+    padding: 1px;
+    color: #fff;
+    background-color: #2a3759;
+    border-color: white;
+    text-align: center;
+    margin: 5px;
+    font-size: 15px;
+}
+
+.btn-primary:hover {
+    color: white;
+    background-color: #f3bb34;
+    border-color: white;
+}
