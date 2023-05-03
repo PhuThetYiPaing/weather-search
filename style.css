@@ -1,0 +1,163 @@
+body {
+    margin: 60px;
+}
+
+form {
+    position: absolute;
+    top: 160px;
+    right: 120px;
+}
+
+h1 {
+    font-size: 50px;
+    font-style: bold italic;
+    padding: 30px;
+    font-family: "Roboto";
+    font-weight: 900 px;
+}
+
+h2 {
+    font-size: 30px;
+    font-style: bold;
+    font-family: Montserrat;
+}
+
+.temperature {
+    font-size: 30px;
+    font-family: Montserrat;
+    color: black;
+}
+.active{
+    color:#70757a;
+    cursor: default;
+}
+.active:hover {
+    text-decoration: none;
+}
+
+h3 {
+    font-size: 18px;
+}
+
+strong {
+    font-size: 18px;
+}
+
+h4 {
+    font-size: 18px;
+}
+
+container {
+    display: block;
+    padding: 10px;
+    background-color: transparent;
+    border: solid white;
+    margin: 20px;
+}
+h3{
+    color: #70757a;
+    display: inline-block;
+    font-size: 15px;
+    line-height: 16px;
+    padding-left: 6px;
+    padding-top: 4px;
+}
+.descript{
+    font-size:15px;
+}
+
+.descript::first-letter{
+    text-transform: capitalize;
+}
+
+.row {
+    margin: 20px;
+}
+
+container {
+    background-image: linear-gradient(109.6deg, rgba(121, 203, 202, 1) 11.2%, rgba(119, 161, 211, 1) 91.1%);
+    display: block;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+body {
+    background-color: white;
+    display: block;
+    padding: 20px;
+}
+
+section {
+    color: white;
+    font-style: italic;
+}
+
+.card {
+    padding: 16px;
+    box-shadow: 2px 2px 5px 1px gray;
+}
+
+.row .column {
+    height: 10 px;
+    width: 10 px;
+}
+
+small {
+    padding: 4px;
+    padding-top: 15px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: black;
+        display: inline-block;
+        font-size: 15px;
+        line-height: 20px;
+}
+
+.container px-5 py-5 {
+    padding: 3px;
+}
+
+.card-title {
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    background-color: transparent;
+    font-size: 15px;
+}
+a:hover{
+    color: yellow;
+}
+
+.form-control {
+    color: white;
+    background-color: #2a3759;
+    border-radius: 5px;
+    border: 1px solid white;
+}
+
+.btn-primary {
+    padding: 1px;
+    color: #fff;
+    background-color: #2a3759;
+    border-color: white;
+    text-align: center;
+    margin: 5px;
+    font-size: 15px;
+}
+
+.btn-primary:hover {
+    color: white;
+    background-color: #f3bb34;
+    border-color: white;
+}
+.temp{
+    font-size:30px;
+}
+article{
+position: absolute;
+    top: 160px;
+    bottom: 90px;
+}
