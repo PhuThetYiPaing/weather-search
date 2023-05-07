@@ -57,10 +57,10 @@ h4 {
 
 .unique{
     display: block;
-    padding: 10px;
+    padding: 0px;
     background-color: transparent;
     border: solid white;
-    margin: 20px;
+    margin: 10px;
     background-image: url('https://static.vecteezy.com/system/resources/thumbnails/009/877/575/small_2x/beautiful-nature-sunny-day-landscape-background-with-grassland-and-mountain-free-vector.jpg');
     background-size: 100% 100%;
     background-repeat: no-repeat;
@@ -96,7 +96,7 @@ container {
     margin-left: 40px;
 }
 .col{
-    margin:3px -40px 50px 50px;
+    margin:20px -40px 50px 50px;
 }
 .control{
     border: #43A5BE;
@@ -174,7 +174,7 @@ a:hover{
 }
 article{
 position: absolute;
-    top: 120px;
+    top: 180px;
     bottom: 40px;
     left: 60px;
 }
