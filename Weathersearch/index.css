@@ -175,11 +175,12 @@ a:hover{
     text-shadow: 2px 1px black;
 }
 article{
-position: relative;
-    top: 120px;
+    position: relative;
+    top: -50px;
     bottom: 40px;
-    left: 60px;
+    left: 50px;
 }
+    
 .weather-forecast{
     text-align: center;
     margin-top: -50px;
