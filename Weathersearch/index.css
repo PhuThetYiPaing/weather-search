@@ -182,9 +182,9 @@ position: absolute;
 }
 .weather-forecast{
     text-align: center;
-    margin-top: 45px;
-    margin-bottom: 20px;
-    margin-left:30px;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    margin-left:40px;
 }
 .weather-forecast-date{
     font-size: 15px;
