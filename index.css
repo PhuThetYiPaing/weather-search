@@ -173,10 +173,10 @@ a:hover{
     text-shadow: 2px 1px black;
 }
 article{
-position: absolute;
-    top: 180px;
+position: relative;
+    top: -50px;
     bottom: 40px;
-    left: 60px;
+    left: 40px;
 }
 .weather-forecast{
     text-align: center;
