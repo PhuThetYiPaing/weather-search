@@ -57,7 +57,7 @@ function showForecast(response) {
       `<div class="col-4.5">
         <div class="weather-forecast-date">
           <p>${formatDay(day.time)}</p>
-        </div><br /><img src="${day.condition.icon_url}" />
+        </div><img src="${day.condition.icon_url}" />
         <br />
         <div class="weather-forecast-temp">
           <span class="weather-forecast-temp-max">${day.temperature.maximum}°</span><span
