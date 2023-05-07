@@ -1,3 +1,4 @@
+//updateindex
 function formatDate(date) {
   let now = new Date();
 
@@ -156,3 +157,4 @@ let searchForLocation = document.querySelector("#search-form");
 searchForLocation.addEventListener("submit", submitCity);
 
 search("New York");
+//
