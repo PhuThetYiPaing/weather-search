@@ -54,7 +54,7 @@ function showForecast(response) {
   forecast.forEach(function (day) {
     forecastHTML =
       forecastHTML +
-      `<div class="col-3.8">
+      `<div class="col-4.5">
         <div class="weather-forecast-date">
           <p>${formatDay(day.time)}</p>
         </div><br /><img src="${day.condition.icon_url}" />
