@@ -36,12 +36,12 @@
                 <input type="submit" id="form-submit" value="Search" class="form-control btn btn-primary shadow-sm">
             </div>
         </form>
-        <container class="block">
+        <div class="unique">
             <div class="row">
                 <div class="col-5">
-                    <h2 id="city">
-                        Daik-U</h2><br><br>
-                        <h3>Humidity:    <span id="humidity">66</span>%
+                    <h2 id="city" class="city">
+                        Daik-U</h2><br>
+                        <h3>Humidity:   <span id="humidity">66</span>%
                         <br>
                         Wind:     <span id="wind">3</span>mph<br><br>
                     </h3>
@@ -61,8 +61,8 @@
                     alt="weather-icon"
                     width="180px">
                 </div>
-                <div class="col"><small>
-                    <h4><br><br>Last updated:
+                <div class="col"><small class="updated">
+                    <h4><br><br>Last updated:<br><br>
                         <strong id="date">
                         Wednesday    <br>
                         </strong><br>
@@ -73,82 +73,14 @@
                     </h5></small>
                 </div>
             </div>
-        </container>
-        <section>
-            <div class="row justify-content-end">
-                <div class="col-">
-                    Today
-                </div>
-                <div class="col-2">
-                    <u>5 days Forecast</u>
-                </div>
-            </div>
-        </section>
-        <small>
-            <div class="container px-1 py-1">
-                <div class="row">
-                    <div class="col">
-                        <div class="card">
-                            <div class="card-body">
-                                <h5 class="card-title">Thursday</h5>
-                                <p class="card-text">Rain<br>10°C</p>
-                            <img src=" https://openweathermap.org/img/wn/10d@2x.png"
-                                    width=70px>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col mx-2">
-                        <div class="card">
-                            <div class="card-body">
-                                <h5 class="card-title">Friday</h5>
-                                <p class="card-text">Fewclouds<br>15°C</p>
-                            <img src=" https://openweathermap.org/img/wn/02d@2x.png"
-                                    width=70px>
-
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col mx-2">
-                        <div class="card">
-                            <div class="card-body">
-                                <h5 class="card-title">Saturday</h5>
-                                <p class="card-text">Rain<br>10°C</p>
-                            <img src=" https://openweathermap.org/img/wn/10d@2x.png"
-                                    width=70px>
-
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col mx-2">
-                        <div class="card">
-                            <div class="card-body">
-                                <h5 class="card-title">Sunday</h5>
-                                <p class="card-text">Clear sky<br>25°C</p>
-                            <img src=" https://openweathermap.org/img/wn/01d@2x.png"
-                                    width=70px>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col mx-2">
-                        <div class="card">
-                            <div class="card-body">
-                                <h5 class="card-title">Monday</h5>
-                                <p class="card-text">Clear sky<br>30°C</p>
-                            <img src=" https://openweathermap.org/img/wn/01d@2x.png"
-                                    width=70px>
-
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </small>
+        </div>
+        <div class="weather-forecast" id="forecast">5days</div>
     </container>
     <small class="conclude">
     <a href="https://github.com/PhuThetYiPaing/weather-search">Open-source code</a><strong>  by AncHor</strong>
     </small>
 </body>
-<script src="index.js">
+<script src="index2.js">
 </script>
 </html>
 </html>
